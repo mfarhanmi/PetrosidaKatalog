@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "718689624393",
+    "project_id": "petrosida-katalog",
+    "storage_bucket": "petrosida-katalog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718689624393:android:803b9b190eb7a34acf3a98",
+        "android_client_info": {
+          "package_name": "com.example.petrosidakatalog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718689624393-i311sejft3a30a0ucn2s99snl7spd40s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.petrosidakatalog",
+            "certificate_hash": "bbe094d4ba32a560ba5bfbf8abc243a4dada4d60"
+          }
+        },
+        {
+          "client_id": "718689624393-v7bs4ie2t3ei7a3to5jm97ej00qfo4rv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAitdS37rZ5q7d4BPJWpR7QU7xY0KrobA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718689624393-v7bs4ie2t3ei7a3to5jm97ej00qfo4rv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

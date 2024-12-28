@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profil_perusahaan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/colorPrimaryDark"
+    tools:showIn="@layout/activity_store">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="149dp"
+                app:srcCompat="@drawable/profil" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal"
+                android:text="Tentang"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Kami adalah perusahaan agroindustri yang profesional berpotensi dan berkembang di indonesia kami adalah anak perusahaan dari pt petrokimia gresik persero perusahaan pupuk terbesar dan terlengkap di indonesia kami berdiri sejak tahun 1984 dengan memproduksi bahan aktif kimia untuk pertanian dan perkebunan pertama kali di indonesia dalam jangka waktu 10 tahun terakhir ini kami menyediakan produk produk kimia pertanian agrokimia seperti pestisida pupuk serta bahan kimia untuk penunjang industri agrokimia dengan luas lahan pertanian dan perkebunan di indonesia yang begitu besar didukung dengan pengalaman kami selama lebih dari 20 tahun di industri agrokimia kami berusaha berperan serta dan memberikan yang terbaik dengan produk produk yang berkualitas kepada para petani dan pelaku usaha yang bergerak di bidang pertanian dan perkebunan untuk menyelamatkan hasil panennya serta membantu pemerintah menciptakan swasembada pangan di indonesia saat ini kami sedang mengembangkan produk produk bio pestisida dan bio fertillizer untuk mendukung gerakan go green di indonesia dengan wilayah pemasaran kami yang mencakup wilayah di seluruh indonesia kami berusaha untuk lebih dekat dengan pelanggan dan memberikan pelayanan terbaik."
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/visimisi" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center_horizontal"
+                    android:text="Visi"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Menjadi perusahaan agroindustri terkemuka di indonesia yang mampu memberi manfaat kepada pelanggan dan pemangku kepentingan lainya."
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal"
+                android:text="Misi"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="1. menyediakan produk dan layanan berkualitas dengan harga yang kompetitif.\n2. mengelola bisnis dengan ekselen melalui kerjasama dan sinergi.\n3. memberi kemanfaatan bagi pelanggan dan pemangku kepentingan lainya secara berkelanjutan."
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/pemasaran" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>
